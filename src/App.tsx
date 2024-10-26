@@ -1,7 +1,5 @@
-import MuiResponsiveness from "./components/MuiResponsiveness";
-
 function App() {
-  return <MuiResponsiveness />;
+  return <div>Your component go here</div>;
 }
 
 export default App;
