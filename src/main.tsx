@@ -8,9 +8,8 @@ import { CssBaseline } from "@mui/material";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
-      <CssBaseline>
-        <App />
-      </CssBaseline>
+      <CssBaseline />
+      <App />
     </ThemeProvider>
   </StrictMode>
 );

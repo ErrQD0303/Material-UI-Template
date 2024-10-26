@@ -1,11 +1,13 @@
 import { Box } from "@mui/material";
 import { styled } from "@mui/material";
 
-const StyledBox = styled(Box)(({ theme }) => ({
-  height: "250px",
-  width: "250px",
-  backgroundColor: theme.status.danger,
-}));
+const StyledBox = styled(Box)(
+  ({ theme }) => `
+    height: 250px;
+    width: 250px;
+    background-color: ${theme.status.danger};
+  `
+);
 
 const StyledPalletBox = styled(Box)(({ theme }) => ({
   height: "300px",
